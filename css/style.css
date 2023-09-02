@@ -3,11 +3,12 @@ body, ul {
     margin: 0;
     padding: 0;
     list-style: none;
+}
+body{
     background-image: url("../images/photo-1499750310107-5fef28a66643.avif");
     background-repeat:no-repeat;
     background-size: cover;
 }
-
 /* Basic styles for the container */
 .container {
     max-width: 600px;
@@ -111,4 +112,8 @@ button.delete:hover {
     button#addTask {
         padding: 10px 15px;
     }
+}
+.delete_edit{
+    display: flex;
+    gap: 10px;
 }
